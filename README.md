@@ -9,9 +9,8 @@
 - `scripts/` — запуск і перевірка середовища (`start_env.sh`, `stop_env.sh`, `wait_ports.sh`, `check_env.sh`, `env.sh`)
 - `mission/` — план місії `mission_variant9.plan` (Takeoff → Waypoint → Land)
 - `telemetry/` — `.csv` і `.tlog` контрольного польоту
-- `analysis/` — `analyze.py` (таблиця показників і 3 графіки з CSV)
-- `results/` — графіки, `table_7_4.md`, звіт
-
+- `results/` — графіки
+  
 ## Запуск
 ```bash
 distrobox enter ros2_humble
